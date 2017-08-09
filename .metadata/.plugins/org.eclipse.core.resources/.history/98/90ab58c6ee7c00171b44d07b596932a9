@@ -1,0 +1,6 @@
+package bmsp.commands;
+
+public class StopCommand implements Command {
+
+	public void nothing() {}
+}

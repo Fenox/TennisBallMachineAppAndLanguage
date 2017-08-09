@@ -1,0 +1,32 @@
+package bmsp;
+
+import java.util.ArrayList;
+import bmsp.commands.*;
+
+/**
+ * @author Julian
+ *
+ */
+public class BMSPGenerator {
+
+	ArrayList<Command> bmss = new ArrayList<Command>();
+
+	/**
+	 * @param command Command to be added to the ballmachine-schooting-sequence
+	 * @return whether the bmss is a valid sequence.
+	 */
+	public boolean addCommand(Command command) {
+		bmss.add(command);
+		
+		boolean valid = checkValidity();
+		if(!valid) {
+			bmss.remove(command);
+		}
+		
+		return valid;
+	}
+	
+	private boolean checkValidity() {
+		return true;
+	}
+}

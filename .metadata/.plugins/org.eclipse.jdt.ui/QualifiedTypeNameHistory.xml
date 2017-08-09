@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Attr"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
+<fullyQualifiedTypeName name="bmsp.commands.PauseCommand"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.ParserConfigurationException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bmsp.commands.Command"/>
+<fullyQualifiedTypeName name="bmsp.commands.StartCommand"/>
+<fullyQualifiedTypeName name="bmsp.commands.ShootCommand"/>
+<fullyQualifiedTypeName name="bmsp.commands.JumpBackCommand"/>
+<fullyQualifiedTypeName name="bmsp.commands.StopCommand"/>
+<fullyQualifiedTypeName name="bmsp.BMSPGenerator"/>
+<fullyQualifiedTypeName name="bmsp.writer.BMSPXMLFileWriter"/>
+<fullyQualifiedTypeName name="bmsp.reader.BMSPXMLReader"/>
+<fullyQualifiedTypeName name="javax.xml.transform.TransformerFactory"/>
+<fullyQualifiedTypeName name="javax.xml.transform.Transformer"/>
+<fullyQualifiedTypeName name="javax.xml.transform.dom.DOMSource"/>
+<fullyQualifiedTypeName name="javax.xml.transform.stream.StreamResult"/>
+</qualifiedTypeNameHistroy>

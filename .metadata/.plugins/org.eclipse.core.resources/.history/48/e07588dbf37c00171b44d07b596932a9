@@ -1,0 +1,27 @@
+package bmsp.commands;
+
+public class JumpBack implements Command {
+
+	@Override
+	public void nothing() {
+	}
+	
+	private int jumpIndex;
+	private int repetitions;
+	
+	public int getJumpIndex() {
+		return jumpIndex;
+	}
+
+	public void setJumpIndex(int jumpIndex) {
+		this.jumpIndex = jumpIndex;
+	}
+
+	public int getRepetitions() {
+		return repetitions;
+	}
+
+	public void setRepetitions(int repetitions) {
+		this.repetitions = repetitions;
+	}
+}

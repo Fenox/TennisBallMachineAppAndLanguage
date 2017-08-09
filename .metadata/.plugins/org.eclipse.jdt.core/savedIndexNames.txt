@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+D:\OneDrive\Projekte\Ballmaschine\TennisBallMachineAppAndLanguage\.metadata\.plugins\org.eclipse.jdt.core
+279649035.index
+2288190609.index
+1871374431.index

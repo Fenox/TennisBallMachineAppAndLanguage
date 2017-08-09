@@ -1,0 +1,10 @@
+
+Csquid:S1166F"%Either log or rethrow this exception.(ï­£Ä8»†™¿Ü+
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8»†™¿Ü+
+]squid:S1161!":Add the "@Override" annotation above this method signature(¤ú·şÿÿÿÿ8»†™¿Ü+
+Hsquid:S1166B"%Either log or rethrow this exception.(ÊÊÆƒüÿÿÿÿ8»†™¿Ü+
+bsquid:S2147D"DCombine this catch with the one at line 66, which has the same body.(Ã‡²ö8»†™¿Ü+
+Fsquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8»†™¿Ü+
+Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8»†™¿Ü+
+Csquid:S1166D"%Either log or rethrow this exception.(Ã‡²ö8»†™¿Ü+
+bsquid:S2147F"DCombine this catch with the one at line 66, which has the same body.(ï­£Ä8»†™¿Ü+

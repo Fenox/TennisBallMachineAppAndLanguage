@@ -1,0 +1,89 @@
+package bmsp.reader;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
+
+import bmsp.commands.Command;
+import bmsp.commands.JumpBackCommand;
+import bmsp.commands.PauseCommand;
+import bmsp.commands.ShootCommand;
+import bmsp.commands.StartCommand;
+import bmsp.commands.StopCommand;
+
+public class BMSPXMLReader implements BMSPReader {
+
+	String file;
+	
+	public BMSPXMLReader(String file) {
+		this.file = file;
+	}
+	
+	public List<Command> read() {
+		
+		ArrayList<Command> result = new ArrayList<>();
+		
+		try {
+			File xmlFile = new File(file);
+			
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dbuilder = dbFactory.newDocumentBuilder();
+			Document doc = dbuilder.parse(xmlFile);
+			
+			NodeList commands = doc.getChildNodes();
+			
+			for(int i = 0; i < commands.getLength(); i++) {
+				Node currentNode = commands.item(i);
+				Element currentElement = (Element) currentNode;				
+				
+				switch(currentElement.getTagName()) {
+					case "START": result.add(new StartCommand());
+						break;
+					case "STOP": result.add(new StopCommand());
+						break;
+					case "PAUSE": result.add(parsePauseCommand(currentElement));
+						break;
+					case "Shoot": result.add(parseShootCommand(currentElement));
+						break;
+					case "JumpBack": result.add(parseJumpBackCommand(currentElement));
+						break;
+				}
+			}
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}		
+	}
+
+	private Command parseJumpBackCommand(Element currentElement) {
+		JumpBackCommand cmd = new JumpBackCommand();
+		
+		return cmd;
+	}
+
+	private Command parseShootCommand(Element currentElement) {
+		ShootCommand cmd = new ShootCommand();
+		
+		return cmd;
+	}
+
+	private Command parsePauseCommand(Element currentElement) {
+		PauseCommand cmd = new PauseCommand();
+		
+		return cmd;
+	}
+}

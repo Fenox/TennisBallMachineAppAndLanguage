@@ -1,0 +1,29 @@
+
+R
+"src/bmsp/commands/CommandType.java,b\2\b27b1882aa08d465b6601dd656ca60cc1eaf9b4d
+N
+src/bmsp/commands/Command.java,d\d\ddec2417a4c0277c8f288d642bc8685034b830b7
+R
+"src/bmsp/commands/StopCommand.java,a\1\a135474be6130bc0b0255f325dcf49102ab116e1
+S
+#src/bmsp/commands/StartCommand.java,1\f\1fb71597aaf2f188da53704aa5a48516e52901fc
+O
+src/bmsp/commands/JumpBack.java,1\2\12ff7c2273bba99069a9afa1bdc2e65c3fa2ef53
+H
+src/bmsp/BMSPWriter.java,0\2\02dd0717fbb72bb2ee9341e85b0d5bbbfe997220
+S
+#src/bmsp/writer/BMSPFileWriter.java,2\2\224c7295721bf8417840f66cfac451f32fe4442c
+O
+src/bmsp/reader/BMSPReader.java,3\c\3ca69ce093cde84d1d0f8eb5948d5dd9180c83c0
+S
+#src/bmsp/commands/PauseCommand.java,2\f\2f5f995473f7d7bd30fbbcd7055967eb0cb2fd6b
+V
+&src/bmsp/commands/JumpBackCommand.java,6\9\6976aae676cec65d7a359cc35fb70d6ffe1c512c
+S
+#src/bmsp/commands/ShootCommand.java,4\1\41ddefab302e4878e81d90f2a2b513ab400835e7
+V
+&src/bmsp/writer/BMSPXMLFileWriter.java,2\8\2872420f3644f3343e8d8c1729fa9aea656ecab0
+K
+src/bmsp/BMSPGenerator.java,4\2\422285bfc6611313556cf169a5b1c51e32b68c53
+R
+"src/bmsp/reader/BMSPXMLReader.java,a\2\a2e3091e8e7cfd0625f839116b53bceb2ad0f35a

@@ -1,0 +1,13 @@
+package bmsp.writer;
+
+import bmsp.BMSPGenerator;
+
+public class BMSPFileWriter implements BMSPWriter {
+
+	@Override
+	public void write(BMSPGenerator generator) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

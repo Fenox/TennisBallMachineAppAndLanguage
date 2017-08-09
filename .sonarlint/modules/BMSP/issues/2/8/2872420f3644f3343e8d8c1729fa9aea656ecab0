@@ -1,0 +1,11 @@
+
+gsquid:S2147Q"DCombine this catch with the one at line 79, which has the same body.(ë¶”³ıÿÿÿÿ8”°ÀÜ+
+Fsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Úƒ¾·Ü+
+Hsquid:S1166S"%Either log or rethrow this exception.(¯ş¼ ùÿÿÿÿ8”°ÀÜ+
+Fsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”°ÀÜ+
+Lsquid:S1172X".Remove this unused method parameter "stopcmd".(ª ¿8Â¹İ·Ü+
+Hsquid:S1166Q"%Either log or rethrow this exception.(ë¶”³ıÿÿÿÿ8”°ÀÜ+
+gsquid:S2147S"DCombine this catch with the one at line 79, which has the same body.(¯ş¼ ùÿÿÿÿ8”°ÀÜ+
+Fsquid:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”°ÀÜ+
+Hsquid:S1166O"%Either log or rethrow this exception.(ÊÊÆƒüÿÿÿÿ8Úƒ¾·Ü+
+Msquid:S1172]"/Remove this unused method parameter "startcmd".(¯—õ“8Â¹İ·Ü+

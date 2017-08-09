@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><bmsp><START/><Shot><spin>1000.0</spin><x>5.0</x><y>10.0</y><height>12.0</height><speed>100.0</speed><time>3000</time></Shot><JumpBack><jumpIndex>1</jumpIndex><repetitions>5</repetitions></JumpBack><Shot><spin>2000.0</spin><x>7.0</x><y>3.5</y><height>20.1</height><speed>150.5</speed><time>1000</time></Shot><STOP/></bmsp>

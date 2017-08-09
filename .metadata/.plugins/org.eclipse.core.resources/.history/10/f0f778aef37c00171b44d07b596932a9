@@ -1,0 +1,11 @@
+package bmsp.commands;
+
+public class JumpBack implements Command {
+
+	@Override
+	public void nothing() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package bmsp.commands;
+
+public enum CommandType {
+
+}
