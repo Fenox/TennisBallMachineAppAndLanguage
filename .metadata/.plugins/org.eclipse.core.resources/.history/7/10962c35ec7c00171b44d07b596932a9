@@ -1,5 +1,0 @@
-package bmsp.commands;
-
-public interface Command {
-
-}

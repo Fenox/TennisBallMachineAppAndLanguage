@@ -1,8 +1,0 @@
-package bmsp.commands;
-
-public enum CommandType {
-
-	Start,
-	Stop,
-	Shoot
-}

@@ -1,9 +1,0 @@
-package bmsp;
-
-
-public class BMSPGenerator {
-
-	public void addAction() {
-		
-	}
-}

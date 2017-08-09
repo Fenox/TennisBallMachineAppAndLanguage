@@ -1,5 +1,0 @@
-package bmsp.reader;
-
-public interface BMSPReader {
-
-}

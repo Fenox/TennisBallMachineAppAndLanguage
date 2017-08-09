@@ -1,8 +1,0 @@
-package bmsp;
-
-import bmsp.BMSPGenerator;
-
-public interface BMSPWriter {
-
-	public void write(BMSPGenerator generator);
-}
